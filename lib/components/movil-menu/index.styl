@@ -1,0 +1,118 @@
+$color = #f4f4f4
+.mobil-menu
+	background-color $gray-color
+	width 90%
+	position fixed
+	top 0
+	height 100%
+	min-height 100%
+	margin-top $heder-height-xs
+	z-index 16
+	transform translate3d(-110%, 0, 0)
+	transition all 0.2s ease-in-out
+	padding 1em
+	overflow-y scroll
+	padding-bottom $heder-height-xs
+	
+	h4
+		color $sertes-color
+		margin-bottom 0
+	small
+		color gray
+	.items-wrap
+		display flex
+		flex-wrap wrap
+		// height 300px
+		div
+			flex-basis 50%
+			padding 0.3em
+			.item
+				background-color #f4f4f4
+				border solid 1px #cdcdcd
+				display flex
+				flex-flow column
+				min-height 7em
+				align-items center
+				justify-content center
+				cursor pointer
+				// .icon
+				// 	text-align center
+				// 	height 2em
+				img
+					width 2em
+					height 2em
+				.name
+					color $dark-color
+					padding-top 0.5em
+					text-align center
+					font-size 0.9em
+					margin 0
+					transition all 0.3s
+					&:first-line
+						font-weight bold
+			&:hover
+				.name
+					color $sertes-color
+	ul
+		color $sertes-color
+		list-style none
+		margin 0
+		padding 0
+		font-size 1.2
+		li
+			background-color #f4f4f4
+			margin-top 1px
+			padding-top 0.7em
+			padding-bottom 0.7em
+			border-bottom solid 1px lightgray
+			padding-left 1em
+			cursor pointer
+			&:hover
+				color gray
+			a
+				color $sertes-color
+				text-decoration none
+				padding-left 1em
+				font-weight bold
+// segunda vista
+.second-view
+	span
+		color gray
+		text-transform capitalize
+	.back
+		position absolute
+		right 1em
+		top 1.5em
+		img
+			width 3em
+	.items
+		margin-top 1em
+.shadow
+	box-shadow 0px 5px 10px gray
+
+@media (min-width: 768px)
+	.mobil-menu
+		width 100%
+		height 700px
+		min-height 700px
+		margin-top $heder-height-lg
+		transform translate3d(0, -100%, 0)
+		display flex !important
+		.first-view
+			flex-basis 50%
+			.items-wrap
+				width 90%
+		.second-view
+			flex-basis 50%
+			
+@media (min-width: 1200px)
+	.mobil-menu
+		height 500px 
+		min-height 500px
+		.items-wrap
+			div
+				flex-basis 33.33%
+.oculto
+	display none
+.show
+	transform translate3d(0, 0, 0) !important

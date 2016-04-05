@@ -1,0 +1,169 @@
+@import 'nib'
+$img = '../img/'
+// variables
+$sertes-color = #f27d00
+$gray-color = #eeeeee
+$dark-color = #9c9c9c
+$text-color = #6b6b6b
+$heder-height-xs = 4em
+$heder-height-lg = 6em
+
+body,html 
+	// min-height 100%
+#carousel-one
+	background-image url($img + 'banner-lg	.jpg')
+	background-size cover
+	background-position right
+#carousel-two
+	background-image url($img + 'banner.jpg')
+	background-size cover
+	background-position right
+#carousel-three
+	background-image url($img + 'banner2.jpg')
+	background-size cover
+	background-position right
+
+.carousel-inner
+		.item
+			div
+				height 10em
+main.main
+	position relative
+	// min-height 100%
+	padding-top $heder-height-xs
+	.banner
+		// background-image url($img + 'banner-lg	.jpg')
+		background-size cover
+		background-position right top
+		height 10em
+	.banner-product
+		background-image url($img + 'bgtitle.jpg')
+		background-position right
+		background-color lightgray
+		min-height 14em
+		.container
+			min-height 14em
+			display flex
+			align-items center
+	section.container
+		text-align center
+		color $text-color
+		min-height 50vh
+		.titles
+			position relative
+			margin-bottom 3em		
+			h3
+				font-weight bold
+				margin-bottom 0
+			p 
+				font-weight 200
+				font-size 1.5em
+				
+			&:after
+				content ""
+				position absolute
+				bottom -5px
+				height 3px
+				width 100px
+				background-color $sertes-color
+				left 0
+				right 0
+				margin-left auto
+				margin-right auto
+	// .flexbox
+	// 	background-color red
+	.wrap-three-box
+		display flex
+		a
+			text-decoration none
+			color $text-color
+		.item
+			flex-basis 33.33%
+			padding 0.2em
+			
+			>div
+				background-color $gray-color
+				display flex
+				padding 0.5em
+				min-height 10em
+				.icon
+					padding 1em
+					display flex
+					img
+						width 4em
+				.txt
+					flex-grow 2
+					text-align left
+					h3
+						margin-top 0
+						font-weight 100
+						&:first-line
+							font-weight bold
+					
+.video 
+	padding 2em					
+video
+	background-color $gray-color
+	width 100% !important
+  	height auto !important
+
+address
+	background-image url("../img/mapa.jpg")
+	height 20em
+	background-position center
+	background-size cover
+	margin-bottom 0
+	
+footer
+	background-color #3e3e3e
+	color lightgray
+// product
+.product_box
+	display flex
+	flex-flow column
+	div
+		// flex-basis 100%
+		padding 2em
+	.text
+		text-align left
+		order 2
+	.photo
+		order 1
+// contacto
+form
+	padding-bottom 2em
+	.input-group
+		width 100%
+		input,textarea
+			border-radius 0.5em !important
+@media (min-width: 768px)
+	main.main
+		padding-top $heder-height-lg
+		.banner
+			height 30em
+		.flexbox
+			display flex
+			div
+				// flex-basis 50%
+	.product_box
+		display flex
+		flex-flow row
+		div
+			flex-basis 50%
+			padding 2em
+		.text
+			text-align left
+			order 1
+		.photo
+			order 2
+	.carousel-inner
+		.item
+			div
+				height 30em
+@import 'components/movil-menu/index'
+@import 'components/header/index'
+@import 'components/footer/index'
+
+
+
+	

@@ -1,0 +1,65 @@
+doctype html
+html
+	head
+		title Certes plantas electricas
+		meta(charset="UTF-8")
+		meta(name="viewport",content="width=device-width, user-scalable=no")
+		link(rel="stylesheet", type="text/css", href="css/normalize.css")
+		link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css",integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7",crossorigin="anonymous")
+
+		link(rel="stylesheet", type="text/css", href="css/index.css")
+	body 
+		header
+			include components/header/index.jade
+		main.main
+			include components/movil-menu/index.jade
+			div.banner-product.hidden-xs
+				div.container
+					h1 Contacto
+			include the-product.jade
+			section.container.home-view
+				article.text
+					div.titles
+						h3 Un asesor esta listo para atenderle
+						//- p Tenemos la fuente de poder
+					//- p.text-justify Fundada en 1987 en la ciudad de Culiacán Sinaloa nace SERTES con el objetivo de brindar a nuestros clientes soluciones eficaces y rápidas en el manejo de energía.
+					div.row
+						div.col-sm-6
+							form
+								div.input-group
+									input.form-control(placeholder="Nombre" aria-describedby="sizing-addon1")
+								br
+								div.input-group
+									input.form-control(placeholder="Empresa" aria-describedby="sizing-addon1")
+								br
+								div.input-group
+									input.form-control(placeholder="Email" aria-describedby="sizing-addon1")
+								br
+								div.input-group
+									input.form-control(placeholder="Teléfono" aria-describedby="sizing-addon1")
+								br
+								div.input-group
+									textarea.form-control(placeholder="Empresa" rows="3")
+								br
+								button.btn.btn-success(type="button") Enviar
+
+						div.col-sm-6.hidden-xs
+							p Libramiento Bento Juarez #6301 Int. 32A Col. Bugambilias, Parque industrial La Costa.
+							hr
+							span 
+								strong Culiacán
+							br
+							span +52 (667) 716 6848
+							br
+							br
+							span 
+								strong Los Cabos
+							br
+							span +52 (624) 189 1191
+			footer
+				include components/footer/index.jade
+
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js")
+		script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js",integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS",crossorigin="anonymous")
+		script(src="js/underscore-min.js")
+		script(src="js/app.js")

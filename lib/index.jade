@@ -1,0 +1,89 @@
+doctype html
+html
+	head
+		title Certes plantas electricas
+		meta(charset="UTF-8")
+		meta(name="viewport",content="width=device-width, user-scalable=no")
+		link(rel="stylesheet", type="text/css", href="css/normalize.css")
+		link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css",integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7",crossorigin="anonymous")
+		link(rel="stylesheet", type="text/css", href="css/index.css")
+	body 
+		header
+			include components/header/index.jade
+		main.main
+			include components/movil-menu/index.jade
+			div.banner
+				div.carousel.slide#carousel(data-ride="carousel")
+					ol.carousel-indicators
+						li.active(data-target="#carousel",data-slide-to="0")
+						li(data-target="#carousel",data-slide-to="1")
+						li(data-target="#carousel",data-slide-to="2")
+
+					div.carousel-inner(role="listbox")
+						div.item.active
+							div#carousel-one
+						div.item
+							div#carousel-two
+						div.item
+							div#carousel-three
+			div.banner-product.hidden-xs.hidden
+				div.container
+					h1 Productos
+			include the-product.jade
+			section.container.home-view
+				article.wrap-three-box.hidden-xs
+					a(href="queequipo.html")
+						div.item
+							div
+								div.icon
+									img(src="img/icons/plug.svg")
+								div.txt
+									h3 ¿Que equipo necesito?
+									p Tenemos el equipo perfecto para cumplir con tsus necesidades
+					a(href="preguntas.html")
+						div.item
+							div
+								div.icon
+									img(src="img/icons/speech_4.svg")
+								div.txt
+									h3 Preguntas frecuentes
+									p Estamos listos para responder sus inquietudes y dar atención a sus necesidades.
+					a(href="contacto.html")
+						div.item
+							div
+								div.icon
+									img(src="img/icons/user.svg")
+								div.txt
+									h3 ¿Dudas? Hable con un asesor
+									p Nuestros expertos estan listos para resolver todas sus dudas.
+				article
+					div.titles
+						h3 SERTES
+						p Tenemos la fuente de poder
+					p Comprometidos a ofrecerle satisfacción total, estamos siempre en constante renovación y en busca de los mejores equipos que puedan ofrecerle la calidad y seguridad que usted se merece. Las marcas nacionales e internacionales que manejamos nos ofrecen la oportunidad de cumplir con nuestro compromiso a través de la perfecta unión entre la calidad de sus productos y la excelencia de nuestro servicio.
+					p Denos la oportunidad de servirle, confiamos plenamente en que nos convertiremos en su mejor proveedor.
+				//- 
+				article
+					hr
+					div.titles
+							h3 CENTRO DE SERVICIO AUTORIZADO
+					div.flexbox
+						div.marcas
+							img.img-responsive(src="img/marcas.jpg")
+							br
+						div.video
+							video(controls,poster="img/logobrand.png")
+								source(src="video.mp4",type="video/mp4")
+					hr
+				article
+
+					div.titles
+						p Libramiento Bento Juarez #6301 Int. 32A Col. Bugambilias, Parque industrial La Costa
+			address 
+			footer
+				include components/footer/index.jade
+
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js")
+		script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js",integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS",crossorigin="anonymous")
+		script(src="js/underscore-min.js")
+		script(src="js/app.js")

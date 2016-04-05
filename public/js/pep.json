@@ -1,0 +1,17 @@
+[
+	{"sub_categorias": ["gasolina","gas","diesel"]},
+	{ 
+	  "gasolina" : [{
+
+		  "nombre"	: "Serie GP 1800 W - 17500 W",
+		  "sub:titulo": "Accesibles unidades en la gama más amplia de la energía en la industria.",
+		  "combustible" :"Gasolina"
+		}, 
+		{
+			"nombre": "otra planta electrica"
+		}],
+		"gas" :[{"nombre":"planta de gas"}],
+		"diesel" :[{"nombre": "de diesel"}]
+
+	}
+]

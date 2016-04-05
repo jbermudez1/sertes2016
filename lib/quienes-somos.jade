@@ -1,0 +1,71 @@
+doctype html
+html
+	head
+		title Certes plantas electricas
+		meta(charset="UTF-8")
+		meta(name="viewport",content="width=device-width, user-scalable=no")
+		link(rel="stylesheet", type="text/css", href="css/normalize.css")
+		link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css",integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7",crossorigin="anonymous")
+
+		link(rel="stylesheet", type="text/css", href="css/index.css")
+	body 
+		header
+			include components/header/index.jade
+		main.main
+			include components/movil-menu/index.jade
+			div.banner-product.hidden-xs
+				div.container
+					h1 Quienes Somos
+			include the-product.jade
+			section.container.home-view
+				article.text
+					div.titles
+						h3 SERTES
+						//- p Tenemos la fuente de poder
+					p.text-justify Fundada en 1987 en la ciudad de Culiacán Sinaloa nace SERTES con el objetivo de brindar a nuestros clientes soluciones eficaces y rápidas en el manejo de energía.
+					p.text-justify Con esfuerzos constantes y una cartera significativa de clientes SERTES inicia únicamente como prestador de servicios técnicos, posteriormente con la venta de refacciones para plantas generadoras, y actualmente somos orgullosamente distribuidores directos de fabricantes nacionales e internacionales, quienes han depositado en nosotros la confianza para la venta, puesta en marcha, garantía y servicios de sus equipos. Esto nos ha dado la oportunidad de expandirnos a un mercado comercial y residencial en donde nos comprometemos a llevar el poder de la energía eléctrica hasta el más mínimo rincón de su empresa y hogar.
+
+				article
+						//- div.titles
+							//- h3 Renta
+							//- p Asistencia de servicio 24 horas del día, 7 días de la semana durante los 365 días del año.
+						div.flexbox
+							div.marcas
+								p.text-justify Actualmente contamos con presencia en toda la zona Noroeste del País, en donde tenemos el orgullo de prestar el servicio a clientes de gran renombre a quienes les hemos ofrecido la seguridad del mantenimiento preventivo y correctivo de su maquinaria, así como de la excelencia de nuestro servicio. En Junio del 2011 tuvimos el honor de inaugurar nuestra primer sucursal en la ciudad de San José del Cabo, BCS consolidando así nuestra presencia en esa zona.
+
+								p.text-justify Con más de 25 años de servicio y comprometidos a ofrecerle satisfacción total, estamos siempre en constante renovación y en busca de los mejores equipos que puedan ofrecerle la calidad y seguridad que usted se merece. Las marcas nacionales e internacionales que manejamos nos ofrecen la oportunidad de cumplir con nuestro compromiso a través de la perfecta unión entre la calidad de sus productos y la excelencia de nuestro servicio. Denos la oportunidad de servirle, confiamos plenamente en que nos convertiremos en su mejor proveedor.
+								div.titles 
+									h3 Misión
+									p Proveer equipos y servicios de energÍa confiables.
+								div.titles 
+									h3 Visión
+									p Ser la empresa líder en soluciones de energía eléctrica, abarcando el mercado nacional con marcas de prestigio internacional y recurso humano certificado y comprometido.
+								div.titles 
+									h3 Valores
+
+									ul(style="list-style: none; margin:0; padding:0;")
+										li 
+											strong Pasión: 
+											span Amamos lo que hacemos y lo hacemos con el corazón.
+										li 
+											strong Liderazgo: 
+											span Con paso firme, vamos siempre un paso adelante.
+										li 
+											strong Equipo: 
+											span Unidos somos más. Multiplicamos esfuerzos, compartimos triunfos.
+										li 
+										strong Responsabilidad: 
+										span El cliente sabe quiénes somos, confía en nosotros.
+										li 
+											strong Innovación: 
+											span Estamos en constante búsqueda de ser mejores que ayer.
+
+			footer
+				include components/footer/index.jade
+
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js")
+		script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js",integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS",crossorigin="anonymous")
+		script(src="js/underscore-min.js")
+		script(src="js/app.js")
+		script(type='text/javascript').
+			draw_the_Product()

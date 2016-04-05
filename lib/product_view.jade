@@ -1,0 +1,39 @@
+doctype html
+html
+	head
+		title Certes plantas electricas
+		meta(charset="UTF-8")
+		meta(name="viewport",content="width=device-width, user-scalable=no")
+		link(rel="stylesheet", type="text/css", href="css/normalize.css")
+		link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css",integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7",crossorigin="anonymous")
+
+		link(rel="stylesheet", type="text/css", href="css/index.css")
+	body 
+		header
+			include components/header/index.jade
+		main.main
+			include components/movil-menu/index.jade
+			div.banner-product.hidden-xs
+				div.container
+					h1 Productos
+			section.container 
+				article.the-product
+					div.titles
+						h3 
+						p 
+					div.product_box
+						div.text
+							//- img(class="img-responsive")
+						div.photo
+							img(class="img-responsive")
+
+
+			footer
+				include components/footer/index.jade
+
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js")
+		script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js",integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS",crossorigin="anonymous")
+		script(src="js/underscore-min.js")
+		script(src="js/app.js")
+		script(type='text/javascript').
+			//- draw_the_Product()

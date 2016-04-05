@@ -1,0 +1,88 @@
+doctype html
+html
+	head
+		title Certes plantas electricas
+		meta(charset="UTF-8")
+		meta(name="viewport",content="width=device-width, user-scalable=no")
+		link(rel="stylesheet", type="text/css", href="css/normalize.css")
+		link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css",integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7",crossorigin="anonymous")
+
+		link(rel="stylesheet", type="text/css", href="css/index.css")
+	body 
+		header
+			include components/header/index.jade
+		main.main
+			include components/movil-menu/index.jade
+			div.banner-product.hidden-xs
+				div.container
+					h1 Resuelva sus dudas
+			include the-product.jade
+			section.container.home-view
+				article.text
+					div.titles
+						h3 Preguntas Frecuentes
+						//- p Tenemos la fuente de poder
+					//- p.text-justify Estas tablas te ayudarán a medir con exactitud la capacidad de la planta eléctrica que necesitas. Reflexiona sobre los circuitos que quieres proteger y llámanos para una mejor asesoría.
+					div.row
+						div.col-xs-12
+							h3 ¿POR QUÉ NECESITO UNA PLANTA ELÉCTRICA?
+							p La respuesta a esta pregunta es tan sencilla como preguntarte en medio de una reunión a la que has invertido tiempo y dinero para su realización ¿Qué pasaría si se fuera la luz? O en medio de una cirugía de alto riesgo ¿Qué pasaría si en ese momento fallara la electricidad? O si tu empresa está llevando a cabo los procesos de producción diarios y te quedas sin energía ¿Cuánto valoras una planta en ese momento?
+
+							p Todas estas preguntas dan respuesta a la necesidad de una planta eléctrica. Desde las necesidades diarias en el hogar, como cocinar, bañarse o disfrutar del aire acondicionado en un fuerte día de calor hasta la continuidad de una cirugía o un proceso de producción empresarial.
+
+							p Una planta es como un seguro de vida, que bueno sería que nunca la necesitáramos, pero es mejor aún contar con la seguridad de que el día que lo hagamos estará ahí para nosotros.
+							hr
+							h3 ¿CÓMO CALCULO LA CAPACIDAD DE MI PLANTA? 
+							p Cuando se desea comprar un equipo es necesario cuestionarse ¿Cuáles son mis necesidades? ¿Qué circuitos son los que quiero que mi planta cubra? ¿Deseo la protección de toda mi casa/empresa o solamente de circuitos esenciales? 
+							p En el apartado de ¿Qué equipo necesito? que se encuentra en la página principal de esta Web, podrás encontrar unas tablas informativas para apoyarte en ese proceso. Recuerda también que nuestros ingenieros y técnicos están certificados para auxiliarte a encontrar la capacidad adecuada para tu empresa u hogar.
+							hr
+							h3 ¿CUÁNTO TIEMPO FUNCIONA UNA PLANTA ELÉCTRICA? 
+							p Una planta es para servicio de acuerdo a la necesidad y capacidad. Se puede utilizar de manera continua, siempre y cuando se revisen sus condiciones de mantenimiento con frecuencia, o bien para casos únicamente de emergencia en caso que falle el suministro de la red eléctrica. Para cualquiera que sea el caso, el tiempo que funcione la planta es impredecible, están diseñadas para que su vida sea muy larga, sin embargo esto realmente dependerá de los cuidados y mantenimientos que se le den constantemente.
+							hr
+							h3 ¿CUÁL ES EL TIEMPO EN QUE TARDA EN ENCENDER MI MAQUINA DESPUÉS DE QUE SE FUE LA LUZ? 
+							p Esto es totalmente programable según las necesidades del cliente. Pueden ser desde unos cuantos segundos hasta 30 minutos, o más si así es requerido. Todo dependerá del equipo que se esté adquiriendo así como del uso que se le quiera dar a la planta eléctrica.
+							hr 
+							h3 ¿HARÁ RUIDO LA PLANTA ELÉCTRICA? 
+							p De acuerdo a las normas de confort se recomienda que el ruido deseable para un lugar cercano a las personas no sea mayor de 65 decibeles, que es normalmente el sonido que produce un minisplit. Las plantas eléctricas por supuesto producen un ruido mayor cuando se encuentran en funcionamiento, razón por la cual se han diseñado casetas acústicas que permiten atenuar el ruido tanto como el cliente lo desee. De esa manera podrás contar con una planta eléctrica sin siquiera notar su presencia. 
+							hr
+							h3 ¿PUEDO INSTALAR YO MISMO EL GENERADOR? 
+							p Aunque normalmente los equipos se adquieren con instrucciones de instalación detalladas, es importante que sea un técnico especializado quien se encargue de la instalación del equipo. Por cuestiones de seguridad y de apego a todos los códigos de mantenimiento, además de que la garantía del equipo será válida únicamente si es una persona certificada quien ha hecho la instalación y los mantenimientos adecuados. Nosotros contamos con un gran equipo de técnicos especializados y certificados que pueden encargarse de dicho proceso sin ningún problema.
+							hr
+							h3 ¿CÓMO FUNCIONA UNA PLANTA ELÉCTRICA CON EL SUMINISTRO DE LA RED ELÉCTRICA? 
+							p Normalmente en todos los sectores, productivos, públicos, privados, se cuenta ya con una estructura de red eléctrica muy bien formada. El suministro entonces tiende a ser continuo, pero en caso de un impredecible que ocasione la interrupción de la electricidad por parte de la red eléctrica, el conmutador enviará una señal a la planta de que es momento de ponerse en funcionamiento y enviar la electricidad correspondiente. Una vez que se restablezca el suministro de la red el conmutador bloqueará la salida de energía de la planta eléctrica y todo volverá a su estado natural.
+							hr
+							h3 ¿CUÁNDO Y CÓMO DEBO PROCEDER AL MANTENIMIENTO DE MI PLANTA ELÉCTRICA? 
+							p Se recomienda que se haga cada 250 horas o cada 6 meses, lo que ocurra primero. Sin embargo, dependiendo del uso que se le de al equipo, es importante que constantemente se haga cambio de aceite, se chequen los filtros, las mangueras de combustible y agua, etc. De esa forma nos aseguramos de que nuestro equipo esté en perfectas condiciones y no tenga ningún problema para funcionar cuando así se requiera.
+							hr
+							h3 ¿QUÉ SUCEDE SI SOBRECARGO UNA PLANTA ELÉCTRICA? 
+							p Todos los equipos se fabrican con un porcentaje de tolerancia en cuanto al soporte de sobrecarga, sin embargo esto demerita la vida útil del equipo. Cuando la sobrecarga es por motivos de arranques inductivos en el que el motor no sufre tanto las consecuencias, el generador tiende a envejecer prematuramente. Por eso es recomendable el cálculo exacto de lo que necesito. Por ende cuando se solicita el equipo se trata de que este entre un 60 y un 80% de sus capacidades, dejando un 20% para imprevistos. 
+							p Para evitar una sobrecarga es necesario que técnicos especializados analicen la capacidad exacta que cubre sus necesidades, o bien, adquirir equipos equipados con protección contra sobrecarga.
+							hr
+							h3 ¿QUÉ SUCEDE SI UTILIZO UNA PLANTA ELÉCTRICA POR DEBAJO DE SU CAPACIDAD? 
+							p Además de estar malgastado el equipo, se provoca un desperdicio de combustible que al no ser utilizado tiende a perderse y sale del escape como combustible crudo ocasionando fugas de aceite por el escape, que no es otra cosa más que combustible mal quemado. Esa es una de las consecuencias que afecta la estética y la carbonización en la salida del escape. 
+							p Y como esa, son tantas las consecuencias que llega el momento en que una planta ha trabajado tanto por debajo de su capacidad que cuando es requerido que utilice su capacidad máxima ya no la da porque ya no tiene las condiciones para levantar la potencia para la que fue diseñada. 
+							p Una vez más es sumamente recomendable que sea un técnico especializado quien analice la capacidad adecuada necesaria. De esta forma te aseguras que el equipo que estás a punto de obtener sea el que mejor se adapte a tus necesidades.
+
+							h2 Siente la confianza de consultar con nosotros tus dudas, estamos para apoyarte. 
+
+
+						//- div.col-sm-6.hidden-xs
+						//- 	p Libramiento Bento Juarez #6301 Int. 32A Col. Bugambilias, Parque industrial La Costa.
+						//- 	hr
+						//- 	span 
+						//- 		strong Culiacán
+						//- 	br
+						//- 	span +52 (667) 716 6848
+						//- 	br
+						//- 	br
+						//- 	span 
+						//- 		strong Los Cabos
+						//- 	br
+						//- 	span +52 (624) 189 1191
+			footer
+				include components/footer/index.jade
+
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js")
+		script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js",integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS",crossorigin="anonymous")
+		script(src="js/underscore-min.js")
+		script(src="js/app.js")

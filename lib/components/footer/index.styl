@@ -1,0 +1,26 @@
+footer .container
+	img
+		padding 1em
+		width 8em
+		opacity 0.5
+	hr
+		border-top 1px solid $sertes-color
+	div
+		margin-top 2em
+		text-align center
+	.one
+		padding-right 2em
+	// display flex
+@media (min-width: 768px)
+	footer .container
+		display flex
+		padding-top 1em
+		div
+			flex-basis 33.33%
+			margin-top 0
+			a 
+				color gray
+		.one,.two
+			text-align left
+		.three 
+			text-align right

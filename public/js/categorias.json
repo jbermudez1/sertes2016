@@ -1,0 +1,43 @@
+[
+	{
+		"nombre" :	"plantas electricas Portatiles",
+		"id" : "pep",
+		"icos" : ""
+	},
+	{
+		"nombre" :	"plantas electricas Recidenciales",
+		"id" : "per",
+		"icos" : ""
+	},
+	{
+		"nombre" :	"plantas electricas Comerciales",
+		"id" : "pec",
+		"icos" : ""
+	},
+	{
+		"nombre" :	"UPS",
+		"id" : "ups",
+		"icos" : ""
+	},
+	{
+		"nombre" :	"Climas de presisión",
+		"id" : "cdp",
+		"icos" : ""
+	},
+	{
+		"nombre" :	"Acondicionadores de voltage",
+		"id" : "adv",
+		"icos" : ""
+	},
+	{
+		"nombre" :	"Controladores",
+		"id" : "ctl",
+		"icos" : ""
+	},
+	{
+		"nombre" :	"Refacciones",
+		"id" : "ref",
+		"icos" : ""
+	}
+]
+

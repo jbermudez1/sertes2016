@@ -1,0 +1,52 @@
+header
+	background-color $sertes-color
+	color white
+	height $heder-height-xs
+	z-index 99
+	position fixed
+	width 100%
+	.container#header
+		display flex
+		padding-top 0.5em
+		align-items center
+		.burger
+			img
+				height 2em
+		.logo
+			flex-grow 2
+			display flex
+			justify-content center
+			img
+				height 3em
+		.standar-menu
+			ul
+				display flex
+				list-style none
+				margin 0
+				padding 0
+				li
+					margin-left 0.5em
+					margin-right 0.5em
+					a
+						color white
+						cursor pointer
+						text-decoration none
+						&:hover
+							color black
+// medias
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px)
+	header
+		height $heder-height-lg
+		.container#header
+			.logo
+				justify-content flex-start
+				img
+					height 4.7em
+
+
+/* Medium devices (desktops, 992px and up) */
+// @media (min-width: 992px) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+// @media (min-width: 1200px) { ... }
