@@ -173,6 +173,10 @@ var categoryNow;
 		// 
 		$('.the-product .product_box .photo img').attr('src', theProduct.image)
 
+		$('.url .url1').html(theProduct.url1)
+		$('.url .url2').html(theProduct.url2)
+		$('.url .url3').html(theProduct.url3)
+
 	}
 
 
