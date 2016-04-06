@@ -163,6 +163,7 @@ var categoryNow;
 
 	function draw_the_Product(){
 		var theProduct = localStorage.getItem("theProduct");
+		$('.url').addClass('hidden')
 		theProduct = JSON.parse(theProduct)
 		console.log(theProduct)
 		$('.the-product .titles h3').html(theProduct.title)
@@ -173,9 +174,20 @@ var categoryNow;
 		// 
 		$('.the-product .product_box .photo img').attr('src', theProduct.image)
 
-		$('.url .url1').html(theProduct.url1)
-		$('.url .url2').html(theProduct.url2)
-		$('.url .url3').html(theProduct.url3)
+		if ( theProduct.url1 != null) {
+			$('.url').removeClass('hidden')
+			$('.url1').attr('href', theProduct.url1).html('<img class="img-responsive" src="img/pdf.png">')
+			if ( theProduct.url2 != null) {
+				$('.url2').attr('href', theProduct.url2).html('<img class="img-responsive" src="img/pdf.png">')
+			}
+			if ( theProduct.url3 != null) {
+				$('.url3').attr('href', theProduct.url3).html('<img class="img-responsive" src="img/pdf.png">')
+			}
+
+		};
+
+
+
 
 	}
 

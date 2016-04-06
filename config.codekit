@@ -370,6 +370,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/img\/pdf.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1921,
+		"inputAbbreviatedPath": "\/public\/img\/pdf.png",
+		"outputAbbreviatedPath": "\/public\/img\/pdf.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/img\/presion.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

@@ -129,8 +129,20 @@ footer
 		order 2
 	.photo
 		order 1
-		max-width 50%
-		overflow hidden
+	.url
+		order 3
+		background-color #EBEBEB
+		margin-top 1em
+		padding 0.5em
+		border solid 1px lightgray
+		.links
+			display flex
+			justify-content space-between
+			a
+				img
+					width auto
+		h4
+			color $sertes-color
 // contacto
 form
 	padding-bottom 2em
@@ -158,6 +170,15 @@ form
 			order 1
 		.photo
 			order 2
+			max-width 50%
+			overflow hidden
+		.url
+			.links
+				justify-content center
+				a
+					img
+						width auto
+						max-width 3em
 	.carousel-inner
 		.item
 			div
