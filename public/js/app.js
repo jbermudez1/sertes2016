@@ -17,11 +17,13 @@ var categoryNow;
 		 $.ajax({
 		 	url : "lib/products.php?category_id=" + dbid
 		 }).done( function (data){
+		 	console.log(data)
 		 	var divisor = [];
 		 	var sub_category = [];
 		 	var product = data;
 		 	// Recorrer data para obtener searadotes y subcategorias
 		 	_.each(product, function (item) {
+		 		console.log(item.gas)
 		 		if (item.gas != "none") {
 		 			divisor.push(item.gas)
 		 		} 
