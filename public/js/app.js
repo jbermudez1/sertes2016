@@ -171,8 +171,8 @@ var categoryNow;
 		$('.the-product .titles h3').html(theProduct.title)
 		$('.the-product .titles p').html(theProduct.subtitle)
 		// 
-		$('.the-product .product_box .text').html(theProduct.description)
-		$('.the-product .product_box .text').append('<img src=" '+theProduct.details+' "class="img-responsive">')
+		$('.producdescription').html(theProduct.description)
+		$('.the-product .product_box .text .imagen').html('<img src=" '+theProduct.details+' "class="img-responsive">')
 		// 
 		$('.the-product .product_box .photo img').attr('src', theProduct.image)
 

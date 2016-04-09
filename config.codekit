@@ -414,6 +414,94 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/img\/products\/bda\/mtp4000dzd.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67577,
+		"inputAbbreviatedPath": "\/public\/img\/products\/bda\/mtp4000dzd.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/products\/bda\/mtp4000dzd.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/products\/bda\/mtp4000dzv.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67577,
+		"inputAbbreviatedPath": "\/public\/img\/products\/bda\/mtp4000dzv.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/products\/bda\/mtp4000dzv.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/products\/bda\/mtp4000sz.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58426,
+		"inputAbbreviatedPath": "\/public\/img\/products\/bda\/mtp4000sz.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/products\/bda\/mtp4000sz.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/products\/bda\/mtp6000dzd.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 75978,
+		"inputAbbreviatedPath": "\/public\/img\/products\/bda\/mtp6000dzd.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/products\/bda\/mtp6000dzd.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/products\/bda\/mtp6000dzv.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 75978,
+		"inputAbbreviatedPath": "\/public\/img\/products\/bda\/mtp6000dzv.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/products\/bda\/mtp6000dzv.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/products\/bda\/mtp6000sz.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64989,
+		"inputAbbreviatedPath": "\/public\/img\/products\/bda\/mtp6000sz.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/products\/bda\/mtp6000sz.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/products\/bdr\/cw15k1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 175711,
+		"inputAbbreviatedPath": "\/public\/img\/products\/bdr\/cw15k1.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/products\/bdr\/cw15k1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/products\/bdr\/st20k2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 224797,
+		"inputAbbreviatedPath": "\/public\/img\/products\/bdr\/st20k2.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/products\/bdr\/st20k2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/img\/products\/cdp\/liebertcrv.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -667,6 +755,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/img\/products\/pec\/generadormonofásico.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68969,
+		"inputAbbreviatedPath": "\/public\/img\/products\/pec\/generadormonofásico.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/products\/pec\/generadormonofásico.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/products\/pec\/lineamóvil.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.38876e+06,
+		"inputAbbreviatedPath": "\/public\/img\/products\/pec\/lineamóvil.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/products\/pec\/lineamóvil.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/img\/products\/pec\/quietsource.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -674,6 +784,17 @@
 		"initialSize": 66130,
 		"inputAbbreviatedPath": "\/public\/img\/products\/pec\/quietsource.jpg",
 		"outputAbbreviatedPath": "\/public\/img\/products\/pec\/quietsource.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/products\/pec\/serie-guardian.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 411534,
+		"inputAbbreviatedPath": "\/public\/img\/products\/pec\/serie-guardian.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/products\/pec\/serie-guardian.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -689,6 +810,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/img\/products\/pec\/seriecomercial.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 316257,
+		"inputAbbreviatedPath": "\/public\/img\/products\/pec\/seriecomercial.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/products\/pec\/seriecomercial.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/products\/pei\/perkins1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 327843,
+		"inputAbbreviatedPath": "\/public\/img\/products\/pei\/perkins1.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/products\/pei\/perkins1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/products\/pei\/perkins2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 327359,
+		"inputAbbreviatedPath": "\/public\/img\/products\/pei\/perkins2.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/products\/pei\/perkins2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/products\/pei\/perkins3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 324336,
+		"inputAbbreviatedPath": "\/public\/img\/products\/pei\/perkins3.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/products\/pei\/perkins3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/img\/products\/pei\/url1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -700,13 +865,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/public\/img\/products\/pep\/gaslp.jpg": {
+	"\/public\/img\/products\/pep\/gaslp1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 53816,
-		"inputAbbreviatedPath": "\/public\/img\/products\/pep\/gaslp.jpg",
-		"outputAbbreviatedPath": "\/public\/img\/products\/pep\/gaslp.jpg",
+		"initialSize": 168527,
+		"inputAbbreviatedPath": "\/public\/img\/products\/pep\/gaslp1.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/products\/pep\/gaslp1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -872,6 +1037,28 @@
 		"initialSize": 36335,
 		"inputAbbreviatedPath": "\/public\/img\/products\/per\/serie-guardian.jpg",
 		"outputAbbreviatedPath": "\/public\/img\/products\/per\/serie-guardian.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/products\/pi\/lineaespecial.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 173354,
+		"inputAbbreviatedPath": "\/public\/img\/products\/pi\/lineaespecial.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/products\/pi\/lineaespecial.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/products\/pi\/lineaindustrial.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.21602e+06,
+		"inputAbbreviatedPath": "\/public\/img\/products\/pi\/lineaindustrial.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/products\/pi\/lineaindustrial.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
