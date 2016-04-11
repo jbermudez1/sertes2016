@@ -24,45 +24,53 @@ var categoryNow;
 		 	var sub_category = [];
 		 	var product = data;
 		 	// Recorrer data para obtener searadotes y subcategorias
-		 	_.each(product, function (item) {
-		 		console.log(item.gas)
-		 		if (item.gas != "none") {
-		 			divisor.push(item.gas)
-		 		} 
+		 	if(data.length > 1) {
+			 	_.each(product, function (item) {
+			 		console.log(item.gas)
+			 		if (item.gas != "none" ) {
+			 			divisor.push(item.gas)
+			 		} 
 
-		 		if (item.subcategory1_id != null) {
-		 			sub_category.push(item.subcategory1_id)
-		 		} 
-		 	});
-		 	// reducir categorias a alores unicos
+			 		if (item.subcategory1_id != null) {
+			 			sub_category.push(item.subcategory1_id)
+			 		} 
+			 	});
+			 	
+			 	// reducir categorias a alores unicos
 
-		 	if (divisor.length != 0) {
-		 		divisor = $.unique(divisor)
-		 	} else {
-		 		divisor = null
-		 	}
-		 	if (sub_category.length != 0) {
-		 		sub_category = $.unique(sub_category)
-		 	} else {
-		 		sub_category = null
-		 	}
-		 	// console.log(divisor)
-		 	// console.log(sub_category)
-		 	// si no hay subcategorias o divisores
-		 	if (divisor == null && sub_category == null) {
-		 		allProductos(product)
-		 	};
+			 	if (divisor.length != 0) {
+			 		divisor = $.unique(divisor)
+			 	} else {
+			 		divisor = null
+			 	}
+			 	if (sub_category.length != 0) {
+			 		sub_category = $.unique(sub_category)
+			 	} else {
+			 		sub_category = null
+			 	}
+			 	// console.log(divisor)
+			 	// console.log(sub_category)
+			 	// si no hay subcategorias o divisores
+			 	if (divisor == null && sub_category == null) {
+			 		allProductos(product)
+			 	};
 
-		 	// si hay diviciones (gas)
-		 	if (divisor != null && sub_category == null ) {
-		 		// console.log("divisor si tiene algo")
-		 		sub_divisors(divisor)
-		 	};
+			 	// si hay diviciones (gas)
+			 	if (divisor != null && sub_category == null ) {
+			 		// console.log("divisor si tiene algo")
+			 		sub_divisors(divisor)
+			 	};
 
-		 	if (sub_category != null) {
-		 		categoryDivisor(sub_category)
-		 	};
-
+			 	if (sub_category != null) {
+			 		categoryDivisor(sub_category)
+			 	};
+			 } else {
+			 	// solo hay un elemento
+			 	console.log(" solo hay un item")
+			 	$(".second-view").find(".items").append('<ul>');
+			 	$(".second-view").find('ul').append('<li data-producid="' + product.id +' ">' + product.title + '</li>')
+						
+			 }
 		 	// cuando no hay diviciones
 		 	function allProductos(arr){
 			 	//recorre categorias unicas
