@@ -13,6 +13,8 @@ var categoryNow;
 		$(".second-view").find(".items").empty("")
 		// obtiene el ID de la categoria
 		 var dbid = $(this).attr("data-dbid")
+		 var itemName = $(this).children('.name').text();
+		 $('.second-view small').html(itemName)
 		 // consuta productos de categorya
 		 $.ajax({
 		 	url : "lib/products.php?category_id=" + dbid
